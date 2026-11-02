@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beginner-friendly introduction to Internet technologies.">
+  <title>Internet Technologies | HTML5 Learning Project</title>
+  <style>
+    :root { color-scheme: light; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #1a2b3b; background: #f5f8fc; }
+    header { background: #183e68; color: white; padding: 2.5rem 1rem; text-align: center; }
+    header h1 { margin: 0 0 .5rem; font-size: clamp(2rem, 5vw, 3.3rem); }
+    nav { background: #102d4b; padding: .8rem 1rem; text-align: center; }
+    nav a { display: inline-block; color: #fff; margin: .3rem .8rem; font-weight: bold; }
+    a:focus-visible { outline: 3px solid #ecb64b; outline-offset: 3px; }
+    main { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+    section { background: white; border: 1px solid #dce4ee; border-radius: 13px; margin-bottom: 1.3rem; padding: 1.4rem; }
+    h2 { color: #183e68; margin-top: 0; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    figure { margin: 0; padding: 1rem; background: #f1f6fb; border-radius: 11px; }
+    img { width: 100%; height: auto; display: block; }
+    figcaption { margin-top: .7rem; font-weight: bold; text-align: center; }
+    footer { background: #102d4b; color: white; text-align: center; padding: 1.4rem; }
+    footer a { color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Internet Technologies</h2>
+    <p>A short introduction to building websites with HTML, CSS, and JavaScript.</p>
+  </header>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#topics">Topics</a>
+    <a href="#gallery">Illustrations</a>
+    <a href="#resources">Resources</a>
+  </nav>
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h1 id="about-heading">What are Internet technologies?</h1>
+      <p>Internet technologies help us share information and create web pages that people can explore using a browser. This sample website demonstrates fundamental HTML5 elements.</p>
+      <!-- PERSONALIZE: Rewrite this paragraph using your own learning experience before submitting coursework. -->
+    </section>
+    <section id="topics" aria-labelledby="topics-heading">
+      <h1 id="topics-heading">Three important web technologies</h1>
+      <ul>
+        <li><strong>HTML</strong> structures page content.</li>
+        <li><strong>CSS</strong> styles colors, spacing, and layout.</li>
+        <li><strong>JavaScript</strong> adds interactive behavior.</li>
+      </ul>
+    </section>
+    <section id="gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Illustrations</h2>
+      <div class="cards">
+        <figure>
+          <img src="images/html-webpage-layout.png" alt="Illustration of a web page divided into a header, navigation bar, and main content area" width="320" height="210">
+          <figcaption>HTML page structure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Vp9WvV7YKdH4k8sKRePcE8.jpg" alt="Illustration of a webpage card with a blue heading, orange button, and colorful style swatches" width="320" height="210">
+          <figcaption>CSS visual design</figcaption>
+        </figure>
+        <figure>
+          <img src="images/1_M6waauFwOU-IBeK8HseWYw.png" alt="Illustration of a cursor selecting a button that changes from gray to green" width="320" height="210">
+          <figcaption>JavaScript interaction</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="resources" aria-labelledby="resources-heading">
+      <h2 id="resources-heading">Learn more</h2>
+      <p>Explore the <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener noreferrer">MDN Web Development learning resources</a> for tutorials and examples.</p>
+      <!-- PERSONALIZE: Add one external resource you used during the course. -->
+    </section>
+  </main>
+  <footer><p>HTML5 learning example · Customize this project with your own content before submission.</p></footer>
+</body>
+</html>
